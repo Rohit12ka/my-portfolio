@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import p from "../assets/p.jpg";
+import p from "../assets/p.jpeg";
 
 export default function About() {
   return (
@@ -109,7 +109,7 @@ export default function About() {
               About Me
             </h3>
             <p className="text-gray-300 leading-relaxed text-base sm:text-lg">
-             I’m a Dapp Beginner, Contract contract Creator, and Web3 Developer — passionate about building fast, resilient applications and sharing coding insights on Github.
+             I’m a Dapp Developer, Smart Contract Developer, and Full Stack Web3 Developer — passionate about building fast, resilient applications and sharing coding insights on Github.
             </p>
             <p className="mt-4 text-gray-400 text-base sm:text-lg">
               I love turning ideas into scalable, user‑friendly products that make an impact. 
