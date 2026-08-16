@@ -2,11 +2,10 @@
 import { useEffect, useState } from "react";
 
 export default function CustomCursor() {
-  // Store mouse position (x, y) in local state
-  // By default, it starts at { x: 0, y: 0 }
+ 
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
-  // useEffect runs once when component mounts
+
   useEffect(() => {
     // Function to update cursor position whenever mouse moves
     const moveHandler = (e) => {

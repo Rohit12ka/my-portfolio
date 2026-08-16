@@ -55,7 +55,7 @@ const MusicPlayer = () => {
   };
 
   // Play a specific track (called by click gestures)
-  const playTrack = (index) => {
+  const PlayTrack = (index) => {
     setCurrentTrackIndex(index);
     setIsPlaying(true);
     setInfoText("Double tap to change the music");
@@ -111,7 +111,6 @@ const MusicPlayer = () => {
 
     // Dev-time diagnostics (optional; remove in prod)
     const onError = () => {
-      // eslint-disable-next-line no-console
       console.warn("Audio error loading/playing:", audio.error);
     };
     audio.addEventListener("error", onError);
