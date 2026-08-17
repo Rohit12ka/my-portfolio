@@ -46,7 +46,7 @@ export default function About() {
               Rohit
             </h2>
             <p className="mt-2 text-lg sm:text-xl text-white/90 font-semibold">
-              Blockchain Developer Beginner
+              Blockchain Developer 
             </p>
 
             <p className="mt-4 text-gray-300 leading-relaxed text-base sm:text-lg max-w-2xl md:max-w-3xl">

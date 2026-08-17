@@ -135,7 +135,7 @@ const Home = React.forwardRef((props, ref) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8, duration: 0.8 }}
             >
-              I'm a final-year B-Tech (Computer Science -AI) student from Greater Noida, passionate about transforming ideas into decentralized applications on blockchain.
+              I'm aB-Tech (Computer Science -AI) student from Greater Noida, passionate about transforming ideas into decentralized applications on blockchain.
             </motion.p>
 
             {/* buttons */}
