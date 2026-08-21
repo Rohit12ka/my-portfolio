@@ -26,7 +26,7 @@ export default function App() {
       <Home introDone={introDone} />
       <About />
       <Skills />
-      {/* <Projects /> */}
+      <Projects />
       <Experience />
       {/* <Testimonials /> */}
       <Contact />
