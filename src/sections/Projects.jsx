@@ -40,7 +40,7 @@ const useIsMobile = (query = "(max-width: 639px)") => {
   return isMobile; 
 };
 
-export default function Projects() {
+function Projects() {
   const isMobile = useIsMobile(); 
   // Detect if the user is on a mobile screen
 
@@ -48,8 +48,8 @@ export default function Projects() {
   const projects = React.useMemo(
     () => [
       {
-        title: "nk studio",
-        link: "https://www.nk.studio/",
+        title: "Diary Dapp",
+        link: "https://rohit12ka.github.io/MoodChain-Decentralized-Mood-Diary-dApp/",
         bgColor: "#0d4d3d",
         image: isMobile ? photo1 : img1, // Mobile vs desktop image
       },
@@ -186,8 +186,8 @@ export default function Projects() {
         <div className={`absolute ${isMobile ? "bottom-20" : "bottom-10"}`}>
           <a
             href={activeProject?.link}
-            target="_blank"
-            rel="noopener noreferrer"
+            target="https://github.com/Rohit12ka/MoodChain-Decentralized-Mood-Diary-dApp"
+            rel="https://github.com/Rohit12ka/MoodChain-Decentralized-Mood-Diary-dApp"
             className="inline-block px-6 py-3 font-semibold rounded-lg bg-white text-black hover:bg-gray-200 transition-all"
             aria-label={`View ${activeProject?.title}`}
           >
@@ -198,3 +198,4 @@ export default function Projects() {
     </section>
   );
 }
+export default Projects
