@@ -54,8 +54,8 @@ function Projects() {
         image: isMobile ? photo1 : img1, // Mobile vs desktop image
       },
       {
-        title: "Gamily",
-        link: "https://gamilyapp.com/",
+        title: "Task Manager",
+        link: "hhttps://rohit12ka.github.io/Task-Manager/",
         bgColor: "#3884d3",
         image: isMobile ? photo2 : img2,
       },
