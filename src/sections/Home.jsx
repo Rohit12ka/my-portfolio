@@ -63,9 +63,9 @@ const Home = React.forwardRef((props, ref) => {
       className="h-screen w-full relative overflow-hidden bg-black"
     >
       <ParticleBackground />
-      
-      {/* gradient blobs */}
-      {/* <div className="absolute inset-0">
+
+      gradient blobs
+      <div className="absolute inset-0">
         <div
           className="absolute -top-32 -left-32 
           w-[70vw] sm:w-[50vw] md:w-[40vw] 
@@ -88,7 +88,7 @@ const Home = React.forwardRef((props, ref) => {
           blur-[100px] sm:blur-[130px] md:blur-[150px] 
           animate-pulse delay-500"
         />
-      </div> */}
+      </div>
 
       <div className="relative z-10 h-full w-full max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2">
         {/* left */}
@@ -135,7 +135,7 @@ const Home = React.forwardRef((props, ref) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8, duration: 0.8 }}
             >
-              I'm aB-Tech (Computer Science -AI) student from Greater Noida, passionate about transforming ideas into decentralized applications on blockchain.
+              I'm a B-Tech (Computer Science -AI) student from Greater Noida, passionate about transforming ideas into decentralized applications on blockchain.
             </motion.p>
 
             {/* buttons */}
