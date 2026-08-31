@@ -106,8 +106,8 @@ Dark–Light mode toggle
 
 👨‍💻 Author
 
-Rohit Kumar
-Blockchain Developer-beginner | Web Developer
+Rohit 
+Blockchain Developer | Web3 Developer | Smart Contract Developer | Dapp 
 
 GitHub: https://github.com/rohit12ka
 
