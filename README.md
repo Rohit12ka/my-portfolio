@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 🚀 Personal Portfolio Website
 
 A modern, responsive personal portfolio website built with React, Tailwind CSS, and Framer Motion, featuring smooth animations, interactive UI, and a fully functional contact form powered by EmailJS.
@@ -122,4 +121,4 @@ This project is open source and available under the MIT License.
 
 =======
 # my-portfolio
->>>>>>> c526d5bdd9e1f9bfb265cbcf5758779348cfbba8
+
