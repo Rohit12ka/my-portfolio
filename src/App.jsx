@@ -5,7 +5,7 @@ import CustomCursor from "./components/CustomCursor";
 import Home from "./sections/Home";
 import About from "./sections/About";
 import Skills from "./sections/Skills";
-// import Projects from "./sections/Projects";
+import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
 // import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
@@ -21,12 +21,12 @@ export default function App() {
       <Navbar />
       <MusicPlayer />
       {/* Intro always on top until it finishes */}
-      {/* {!introDone && <IntroAnimation onFinish={() => setIntroDone(true)} />} */}
+      {!introDone && <IntroAnimation onFinish={() => setIntroDone(true)} />} 
       {/* Homepage always present (masked reveal) */}
       <Home introDone={introDone} />
       <About />
       <Skills />
-      {/* <Projects />  */}
+      <Projects /> 
       <Experience />
       {/* <Testimonials /> */}
       <Contact />
