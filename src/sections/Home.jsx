@@ -63,8 +63,7 @@ const Home = React.forwardRef((props, ref) => {
       className="h-screen w-full relative overflow-hidden bg-black"
     >
       <ParticleBackground />
-
-      {/* gradient blobs */}
+      
       <div className="absolute inset-0">
         <div
           className="absolute -top-32 -left-32 
