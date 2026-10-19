@@ -13,7 +13,7 @@ import Footer from "./sections/Footer";
 import MusicPlayer from "./components/MusicPlayer";
 
 export default function App() {
-  const [introDone] = useState(false);
+  // const [introDone] = useState(false);
 
   return (
     <div className="relative animated-gradient text-white">
@@ -23,7 +23,7 @@ export default function App() {
       {/* Intro always on top until it finishes */}
       {/* /* {!introDone && <IntroAnimation onFinish={() => setIntroDone(true)} />}  */ */}
       {/* Homepage always present (masked reveal) */}
-      <Home introDone={introDone} />
+      {/* <Home introDone={introDone} /> */}
       <About />
       <Skills />
       <Projects /> 
