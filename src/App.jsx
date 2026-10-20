@@ -1,5 +1,5 @@
 import { useState } from "react";
-import IntroAnimation from "./components/IntroAnimation";
+// import IntroAnimation from "./components/IntroAnimation";
 import Navbar from "./components/Navbar";
 // import CustomCursor from "./components/CustomCursor";       
 import Home from "./sections/Home";
