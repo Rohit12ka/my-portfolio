@@ -23,7 +23,7 @@ export default function App() {
       {/* Intro always on top until it finishes */}
       {/* {!introDone && <IntroAnimation onFinish={() => setIntroDone(true)} />} */}
       {/* Homepage always present (masked reveal) */}
-      {/* <Home introDone={introDone} /> */}
+      <Home introDone={introDone} /> 
       <About />
       <Skills />
       <Projects /> 
