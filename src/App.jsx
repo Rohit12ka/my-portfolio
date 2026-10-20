@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import IntroAnimation from "./components/IntroAnimation";
+import IntroAnimation from "./components/IntroAnimation";
 import Navbar from "./components/Navbar";
 // import CustomCursor from "./components/CustomCursor";       
 import Home from "./sections/Home";
@@ -13,7 +13,7 @@ import Footer from "./sections/Footer";
 import MusicPlayer from "./components/MusicPlayer";
 
 export default function App() {
-  // const [introDone] = useState(false);
+  const [introDone] = useState(false);
 
   return (
     <div className="relative animated-gradient text-white">
